@@ -1,2 +1,9 @@
-package com.fundamentosplatzi.spingboot.fundamentos.bean;public class MyBeanImplement {
+package com.fundamentosplatzi.spingboot.fundamentos.bean;
+
+public class MyBeanImplement implements MyBean{
+
+    @Override
+    public void print() {
+        System.out.println("Hola desde mi implementacion propia del Bean");
+    }
 }

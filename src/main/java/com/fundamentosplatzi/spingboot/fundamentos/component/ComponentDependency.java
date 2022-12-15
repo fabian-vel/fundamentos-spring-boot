@@ -1,2 +1,5 @@
-package com.fundamentosplatzi.spingboot.fundamentos.component;public interface ComponentDependency {
+package com.fundamentosplatzi.spingboot.fundamentos.component;
+
+public interface ComponentDependency {
+    void saludar();
 }
